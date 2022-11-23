@@ -88,3 +88,29 @@ header {
     top: 110px;
     background-color: var(--border);
 }
+
+/* created class to manipulate section titles */
+.section-title {
+    padding: 50px 10px 50px 50px;
+    text-align: right;
+    border-right: solid black;
+    width: 20%;
+}
+
+/* created class for About Me section */
+.sub-section-about {
+    display: flex;
+    padding-top: 0px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+/* class to manipulate text */
+.about-me-text{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5;
+    flex-direction: column;
+    padding-left: 10px;
+}
