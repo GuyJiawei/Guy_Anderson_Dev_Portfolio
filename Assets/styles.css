@@ -114,3 +114,79 @@ header {
     flex-direction: column;
     padding-left: 10px;
 }
+
+/* class manipulate Work section */
+.sub-section-work {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+/* class to manipulate box that contains cards */
+.card-box {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* classes to manipulate cards and contents */
+.card-1 {
+    border: solid var(--border);
+    padding: 10px;
+    width: 99%;
+    height: 200px;
+    flex-grow: 2;
+    background-image: url(./images/card-1.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.card-2 {
+    border: solid var(--border);
+    padding: 10px;
+    width: 48%;
+    height: 100px;
+    flex-grow: 1;
+    background-image: url(./images/card-2.jpg);
+    background-size: cover;
+}
+
+.card-3 {
+    border: solid var(--border);
+    padding: 10px;
+    width: 48%;
+    height: 100px;
+    flex-grow: 1;
+    background-image: url(./images/card-3.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.card-4 {
+    border: solid var(--border);
+    padding: 10px;
+    width: 48%;
+    height: 100px;
+    flex-grow: 1;
+    background-image: url(./images/card-4.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.card-5 {
+    border: solid var(--border);
+    padding: 10px;
+    width: 48%;
+    height: 100px;
+    flex-grow: 1;
+    background-image: url(./images/card-5.jpg);
+    background-size: cover;
+    background-position-y: 240px;
+    background-position-x: center;
+}
