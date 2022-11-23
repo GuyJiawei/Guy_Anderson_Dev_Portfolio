@@ -6,6 +6,19 @@
     --hover: rgb(216, 216, 137);
 }
 
+/* Set headline sizes */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
 /* Set font family for body of page */
 body {
     font-family: Arial, Helvetica, sans-serif ;
