@@ -228,3 +228,33 @@ header {
     background-color: rgba(0,0,0,0.3);
     cursor: pointer;
 }
+
+/* class for contact section */
+.sub-section-contact {
+    display: flex;
+    padding: 50px 0;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+/* class to create box to contain contact links */
+.links_box {
+    display: flex;
+    flex-grow: 1;
+    width: 70%;
+    justify-content: center;
+}
+
+/* class to manipulate contact links and list items */
+.cont_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cont_links li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
