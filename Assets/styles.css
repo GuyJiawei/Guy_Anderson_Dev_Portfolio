@@ -42,3 +42,26 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+/* Class to adjust header title */
+.title {
+    border: 10px;
+    padding: 7px 2px 7px 20px;
+    background-color: var(--border);
+}
+
+/* class to adjust nav bar and elements within*/
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navigation li {
+    padding 10px;
+    margin: 10px;
+}
+
+.navigation li a{
+    color: var(--text);
+}
