@@ -267,3 +267,26 @@ footer {
     height: 50px;
     background-color: gray;
 }
+
+/* added responsive code to stack or hide elements for smaller screen sizes */
+@media screen and (max-width: 768px) {
+    main {
+     flex-direction: column;
+    }
+    nav {
+     display: none;
+    }
+    .section-title {
+     text-align: left;
+     padding: 0;
+    }
+    .cont_links {
+     flex-direction: column;
+    }
+    .card-title h2{
+     font-size: 12px;
+    }
+    .card-title h3{
+     font-size: 10px;
+    }
+  }
