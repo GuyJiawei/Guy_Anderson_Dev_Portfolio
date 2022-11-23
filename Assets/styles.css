@@ -23,6 +23,7 @@ h3 {
 body {
     font-family: Arial, Helvetica, sans-serif ;
     font-size: large;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(134, 204, 221));
 }
 
 /* Made header element to nest nav bar in */
