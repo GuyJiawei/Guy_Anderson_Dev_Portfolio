@@ -1,0 +1,14 @@
+/* setup colours in root for consistency and allow for changes later if necessary */
+:root {
+    --text: rgb(125, 217, 233);
+    --border: rgb(134, 204, 221);
+    --link: rgb(118, 218, 151);
+    --hover: rgb(216, 216, 137);
+}
+
+/* Set font family for body of page */
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
+}
+
