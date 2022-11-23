@@ -66,3 +66,25 @@ header {
 .navigation li a{
     color: var(--text);
 }
+
+/* class to manipulate banner */
+.banner {
+    width: 100%;
+    height: 100px;
+    background-image: url(./images/header-background.jpg);
+    background-size: cover;
+    align-content: flex-end;
+}
+
+/* class to manipulate subtitle in banner */
+.subtitle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    border: 10px;
+    position: absolute;
+    right: 0px;
+    top: 110px;
+    background-color: var(--border);
+}
