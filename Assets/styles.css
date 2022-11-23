@@ -190,3 +190,41 @@ header {
     background-position-y: 240px;
     background-position-x: center;
 }
+
+/* class to manipulate title of card and elements */
+.card-title {
+    background-color: var(--border);
+    padding: 7px 2px 7px 20px;
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+}
+
+.card-title h2 {
+    margin-right: 7px;
+    margin-bottom: 10px;
+    padding-right: 45px;
+    display: inline-flex;
+}
+
+.card-title h3 {
+    margin-right: 7px;
+    position: absolute;
+    bottom: 2px;
+}
+
+/* secondary class to give extra control to manipulate .card-title */
+.card {
+    display: flex;
+    position: relative;
+    background-blend-mode: soft-light;
+}
+
+/* pseudo code to add animation when cursor hovers over work box */
+.card:hover {
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
