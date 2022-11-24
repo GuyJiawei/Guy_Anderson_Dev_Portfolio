@@ -40,5 +40,5 @@ https://guyjiawei.github.io/Guy_Anderson_Dev_Portfolio/
 
 ## Screenshot
 
-![screenshot](./Assets/Images/screenshot.png)
+![screenshot](./Images/screenshot.png)
 
