@@ -140,9 +140,9 @@ header {
     width: 99%;
     height: 200px;
     flex-grow: 2;
-    background-image: url(./images/card-1.jpg);
+    background-image: url(./images/GetLocalScr.png);
     background-size: cover;
-    background-position-y: center;
+    background-position-y: top;
 }
 
 .card-2 {
